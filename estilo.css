@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+div#calculadora {
+    background-color: rgb(54, 54, 54);
+    font: normal 20pt Arial;
+    color: white;
+    width: 230px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px;
+}
+
+input {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+div#resultado {
+    background-color: rgb(77, 77, 77);
+    height: 70px;
+    font: normal 30pt Arial;
+    text-align: right;
+    border-radius: 10px;
+}
+
+div#preres {
+    color: rgb(154, 154, 154);
+    height: 10px;
+    font: normal 15pt Arial;
+    text-align: right;
+    transform: translateY(-25px);
+}

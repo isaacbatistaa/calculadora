@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="calculadora">
+        <div id="resultado"></div>
+        <div id="preres"></div>
+        <div id="inputes">
+            <input type="button" id="clear" value="c" onclick="location.reload()">
+            <input type="button" id="**" value="^" onclick="clicou(id)">
+            <input type="button" id="%" value="%" onclick="clicou(id)">
+            <input type="button" id="/" value="/" onclick="clicou(id)"><br/>
+            <input type="button" id="7" value="7" onclick="clicou(id)">
+            <input type="button" id="8" value="8" onclick="clicou(id)">
+            <input type="button" id="9" value="9" onclick="clicou(id)">
+            <input type="button" id="*" value="x" onclick="clicou(id)"><br/>
+            <input type="button" id="4" value="4" onclick="clicou(id)">
+            <input type="button" id="5" value="5" onclick="clicou(id)">
+            <input type="button" id="6" value="6" onclick="clicou(id)">
+            <input type="button" id="-" value="-" onclick="clicou(id)"><br/>
+            <input type="button" id="1" value="1" onclick="clicou(id)">
+            <input type="button" id="2" value="2" onclick="clicou(id)">
+            <input type="button" id="3" value="3" onclick="clicou(id)">
+            <input type="button" id="+" value="+" onclick="clicou(id)"><br/>
+            <input type="button" id="0" value="0" onclick="clicou(id)">
+            <input type="button" id="." value="." onclick="clicou(id)">
+            <input type="button" value="<--" onclick="apagar()">
+            <input type="button" value="=" onclick="calcular()">
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
